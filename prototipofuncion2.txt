@@ -1,0 +1,14 @@
+def suma(x, y):
+    
+    
+    resultado = x + y
+    return resultado
+
+print("vamos a sumar dos números")
+x = int(input("Cual es el primer número?"))
+y = int(input("Cual es el segundo número?"))
+print("El resultado es:", suma(x,y))
+
+   
+
+#print(f"{suma(2,3)}")
